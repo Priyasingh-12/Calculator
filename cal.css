@@ -47,10 +47,16 @@ button{
   outline: solid 1px #313131;
   outline-offset:3px ;
   cursor: pointer;
+    /* transition: all 0.2s ease-in-out; */
+}
+button:hover {
+  box-shadow: 0 0 10px #00ffe0;
+  transform: scale(1.05);
 }
 button:active{
   background: #000;
   transform: translate(2px ,2px);
+  box-shadow: 0 0 5px cyan;
 }
 .opr{
   color:cyan;
