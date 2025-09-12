@@ -1,0 +1,1 @@
+let inputBox = document.getElementById("inputbox") ;
