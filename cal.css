@@ -13,11 +13,20 @@ body{
   background: linear-gradient(45deg, #0a0a0a ,#3a4452);
 }
 .calculator{
+  margin-top: 12px;
   padding: 15px;
   box-shadow: 0 0 15px #000;
   border: 2px solid rgb(116 ,114,114);
   border-radius: 16px;
 }
+   .title {
+      text-align: center;
+      color: #0ff1e9;
+      font-size: 2.0rem;
+      margin-top: 10px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
 .display input{
   border: none;
   outline: none;
